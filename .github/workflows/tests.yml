@@ -1,4 +1,4 @@
-name: Tests
+name: Run Web & API tests on PR Merge will trigger tests on CI
 
 on:
   pull_request:
