@@ -1,0 +1,15 @@
+env: qa
+
+environments:
+  qa:
+    base_url: "https://www.automationexercise.com"
+    api_url: "https://automationexercise.com/api"
+    db:
+      host: "localhost"
+      port: 3306
+      user: "root"
+      password: "password"
+      database: "automation_db"
+    resolutions:
+      - [1920, 1080]
+      - [1366, 768]
